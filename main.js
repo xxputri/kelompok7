@@ -1,5 +1,5 @@
 setInterval(function () {
-    fetch("http://localhost/api")
+    fetch("https://smartglass7.herokuapp.com/api")
       .then((hasil) => hasil.json())
       .then((res) => {
         console.log(res);
